@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 
 class plgHeadlineHeadlineMarqueeTest extends JPlugin
 {
-	function onGetConfigFields($form, $data)
+	function onGetConfigFields()
 	{
         return <<<eof
 <field
