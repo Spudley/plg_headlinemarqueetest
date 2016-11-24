@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="headline" method="upgrade">
+	<name>PLG_HEADLINE_HEADLINEMARQUEETEST</name>
+	<version>1.0.0</version>
+	<creationDate>February 2016</creationDate>
+	<author>Simon Champion</author>
+	<authorEmail>simon@simonchampion.net</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>(C) 2016 Simon Champion</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<description>PLG_HEADLINE_HEADLINEMARQUEETEST_DESCRIPTION</description>
+
+	<files>
+		<filename>index.html</filename>
+		<filename plugin="headlinemarqueetest">headlinemarqueetest.php</filename>
+		<filename>generatefromheadlinemarqueetest.php</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_headline_headlinemarqueetest.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="info" type="spacer" description="PLG_HEADLINE_HEADLINEMARQUEETEST_INFO_DESC" label="PLG_HEADLINE_HEADLINEMARQUEETEST_INFO_LABEL" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
